@@ -5,7 +5,7 @@ import { FileText, Download } from 'lucide-react';
 export default function About() {
   return (
     <section id="about" className="py-20 flex justify-center bg-purple-50">
-      <div className="container max-2xl px-8 flex justify-end">
+      <div className="container max-w-2xl px-8 flex justify-end">
         <div className="max-w-5xl mx-auto flex justify-end">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -30,7 +30,7 @@ export default function About() {
               <div className="flex gap-4 justify-center">
                 <motion.a
                   whileHover={{ scale: 1.05 }}
-                  href="/src/components/Assets/Praveen_Kukudala_Full_Stack_Developer.pdf"
+                  href="../Assets/Praveen_Kukudala_Full_Stack_Developer.pdf"
                   target="_blank"
                   className="inline-flex items-center gap-2 border-2 border-purple-600 text-purple-600 px-6 py-3 rounded-full hover:bg-purple-50 transition-colors"
                 >
