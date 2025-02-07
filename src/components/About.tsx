@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FileText, Download } from 'lucide-react';
+import Resume from '../Assets/Praveen_Kukudala_Resume_Full_Stack_developer.pdf'
 
 export default function About() {
   return (
@@ -30,7 +31,7 @@ export default function About() {
               <div className="flex gap-4 justify-center">
                 <motion.a
                   whileHover={{ scale: 1.05 }}
-                  href="../Assets/Praveen_Kukudala_Full_Stack_Developer.pdf"
+                  href={Resume}
                   target="_blank"
                   className="inline-flex items-center gap-2 border-2 border-purple-600 text-purple-600 px-6 py-3 rounded-full hover:bg-purple-50 transition-colors"
                 >
